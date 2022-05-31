@@ -1,0 +1,50 @@
+.text-center {
+  border-color: #ddd;
+  border-width: 4px;
+  color: #fff;
+  background-color: #4F3B78;
+  border-width: 4px;
+  width: 40%;
+  margin: 0 auto;
+  float: none;
+  margin-top: 4%;;
+  text-align: center;
+  margin-bottom: 2%;
+  font-size: large;
+}
+
+div.card-deck {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+div.card-deck div.card {
+  margin: 25px 0 25px;
+}
+
+.card-header {
+  border-color: #ddd;
+  border-width: 4px;
+  font-size: xx-large;
+}
+
+div.card-deck div.card div.card-footer {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+body > div.container > div > * > ul {
+  font-size: x-large;
+}
+
+body > div.container > div > div > div > * > button {
+  font-size: x-large;
+}
+
+body>div.container > div > div > div > * > button {
+  font-size: x-large;
+}
+
+.list-view{
+  color: black !important;
+}

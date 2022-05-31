@@ -1,0 +1,43 @@
+div.card-deck {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+div.card-deck div.card {
+    margin: 25px 0 25px;
+}
+
+#labels {
+    color: #4F3B78;
+    font-size: x-large;
+  }
+  
+  
+  #label-border {
+    border-color: #ddd;
+    border-width: 4px;
+  }
+  
+  #expiration-date {
+    border-color: deepskyblue;
+    border-width: 4px;
+  }
+  
+  .publish-button {
+    color: #fff !important;
+    border-color: #4F3B78;
+    border-width: 4px;
+    margin-top: 10px;
+    margin-bottom: 2%;
+    background-color: #4F3B78 !important;
+  }
+
+  .form-send{
+    border-color: #4F3B78;
+  border-width: 4px;
+  width: 50%;
+  margin: 0 auto;
+  float: none;
+  margin-top: 4%;
+  }
+  

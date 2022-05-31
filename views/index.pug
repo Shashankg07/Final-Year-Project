@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  if user
+    include partials/navbar-authenticated
+    include partials/error-message
+      div(class="jumbotron")
+        h2 Welcome To Aahar, 
+          i #{user.uid}
+      div(class="container-fluid bg-change")
+        p Aahar is a mission to end hunger for people and stray animals, 
+        br
+        p No wasting of food to make a hungry-free world.
+      div(class="container-fluid bg-change-last")
+        p(class="para") Made in India with ❤️
+  else
+    include partials/navbar-unauthenticated
+    include partials/error-message
+      div(class="jumbotron")
+        h2 Welcome To Aahar.
+      div(class="container-fluid bg-change")
+        p Aahar is a mission to end hunger for people and stray animals,
+        br
+        p No wasting of food to make a hungry-free world.
+      div(class="container-fluid bg-change-last")
+        p(class="para") Made in India with ❤️

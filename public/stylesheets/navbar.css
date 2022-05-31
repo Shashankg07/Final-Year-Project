@@ -1,0 +1,21 @@
+/* Foodshare */
+#brand {
+  color: #ffffff;
+  font-size: 300%;
+  font-style: italic;
+  font-weight: 900;
+}
+
+/* Navbar links */
+#navbarSupportedContent > ul > li > a {
+  color: #fff;
+  font-size: x-large;
+  margin-right: 25px;
+  text-decoration: solid;
+}
+
+#login_register_button {
+  color: #4F3B78;
+  font-size: x-large;
+  font-weight: bolder;
+}

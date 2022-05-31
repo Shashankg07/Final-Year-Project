@@ -1,0 +1,64 @@
+#labels {
+  color: #363b4e;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.form-control {
+  border-color: #ddd;
+  border-width: 4px;
+  border-radius: 1rem;
+}
+
+#publish-button {
+  font-size: x-large;
+  color: #fff;
+  background-color: #363b4e;
+  border-width: 4px;
+  border-color: #ddd;
+  border-radius: 1rem;
+}
+
+#food_item {
+  font-size: x-large;
+}
+
+#amount {
+  font-size: x-large;
+}
+
+#meeting_point {
+  font-size: x-large;
+}
+
+#pickup_date {
+  font-size: x-large;
+}
+
+#expiration_date {
+  font-size: x-large;
+}
+
+.custom-control-label::before,
+.custom-control-label::after {
+  top: 0.8rem;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.custom-control-lg .custom-control-label {
+  margin-left: 0.5rem !important;
+  font-size: xx-large;
+}
+
+body
+  > div.container
+  > form
+  > div
+  > *
+  > div.custom-control.form-control-lg.custom-checkbox
+  > label {
+  padding-top: 2px;
+  padding-left: 10px;
+  font-size: x-large;
+}

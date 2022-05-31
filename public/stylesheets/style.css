@@ -1,0 +1,62 @@
+html, body {
+  background-color: '#363b4e';
+}
+
+body {
+  font-family: 'Oswald', sans-serif !important;
+  background-color: '#363b4e' !important; 
+}
+h2 {
+  color: #fff;
+  margin: auto;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+h1 {
+  color: #4F3B78;
+  margin: auto;
+  font-weight: 800;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-fluid {
+  width: 100%;
+  padding: 0px;
+  background-color: '#363b4e' !important;
+}
+
+.jumbotron {
+  text-align: center;
+  width: 100%;
+  height: 400px;
+  background-image: url("../images/main_banner.png");
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+
+.bg-change{
+  background-color: #363b4e !important;
+}
+
+.bg-change > p{
+  font-size: 50px;
+  color:#fff;
+  text-align: center !important;
+  margin-bottom: 0%;
+}
+
+.para{
+  text-align: center;
+  padding-top: 23px;
+  padding-bottom: 22px;
+}
+
+.bg-change-last{
+  background-color: #ddd !important;
+  height: 100%;
+  font-size: medium;
+  font-weight: 500;
+  margin-top: 0% !important;
+}

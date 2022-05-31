@@ -1,0 +1,47 @@
+#login_register_labels {
+  color: #4F3B78;
+}
+
+#login_register_button {
+  color: #fff !important;
+  border-color: #4F3B78;
+  border-width: 4px;
+  margin-bottom: 2%;
+  background-color: #4F3B78 !important;
+}
+
+#login-email {
+  border-color: #4F3B78;
+  border-width: 4px;
+  width: 100%;
+  font-size: x-large;
+  border-radius: 0.5rem;
+}
+
+#login-password {
+  border-color: #4F3B78;
+  border-width: 4px;
+  width: 100%;
+  border-radius: 0.5rem;
+  font-size: x-large;
+}
+
+#card {
+  border-color: #4F3B78;
+  border-width: 4px;
+  width: 40%;
+  margin: 0 auto;
+  float: none;
+  margin-top: 4%;
+}
+
+#card_header {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-bottom: 2%;
+  background-color: #fff;
+}
+
+body {
+  font-size: x-large;
+}

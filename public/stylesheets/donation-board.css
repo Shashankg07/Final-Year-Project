@@ -1,0 +1,42 @@
+div.card-deck {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+div.card-deck div.card {
+  margin: 25px 0 25px;
+}
+
+.text-center {
+  border-color: #ddd;
+  border-width: 4px;
+  color: black;
+  background-color: #4F3B78;
+  text-align: center;
+  margin-bottom: 2%;
+  font-size: large;
+  font-weight: 900;
+}
+
+.card-header {
+  border-color: #4F3B78;
+  border-width: 4px;
+  font-size: xx-large;
+  color: aliceblue;
+}
+
+body > div.container > div > * > ul {
+  font-size: x-large;
+}
+
+body > div.container > div > * > div > form > button {
+  font-size: x-large;
+}
+
+body > div.container > div > * > div > button {
+    font-size: x-large;
+}
+
+.list-view{
+  color: black !important;
+}

@@ -1,0 +1,15 @@
+div.card-deck {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+div.card-deck div.card {
+    margin: 25px 0 25px;
+}
+
+h1{
+    color: #4F3B78;
+}
+
+
+  
